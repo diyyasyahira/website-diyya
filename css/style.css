@@ -1,0 +1,107 @@
+/* top navigation */
+body {
+  
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(105, 165, 100);
+}
+        
+.topnav a {
+            float: left;
+            color: #000000;
+            text-align: center;
+            padding: 15px 60px;
+            text-decoration: none;
+            font-size: 17px;       
+}
+
+.topnav a:hover {
+            background-color: rgb(216, 96, 96);
+            color: rgb(229, 180, 180);
+}
+
+.topnav a.active {
+            background-color: transparent;
+            color: white;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+/* font */
+h1 {
+  font-family: garamond;
+  color: #3d270afb;
+  font-size: 45px;
+  text-shadow: 4px 4px #eb9d9d;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(55, 51, 39);
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: garamond;
+}
+
+div.d {
+  text-align: justify;
+}
+
+/* table */
+p.double {
+  border-style: double;
+}
+
+/* 2 column */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 35%;
+}
+
+.right {
+  width: 60%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* contact info */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(117, 50, 50, 0.947);
+  transition: 0.3s;
+  width: 40%;
+  margin: auto;
+  background-color: rgb(241, 202, 175);
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(83, 19, 19, 0.845);
+}
+
+.container {
+  padding: 2px 16px;
+}
